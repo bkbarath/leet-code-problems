@@ -19,8 +19,8 @@ public class AddTwoSum {
             if (value.containsKey(diff)) {
                 // if yes then return the y's index and x's index
                 return new int[]{value.get(diff), i};
-                // if not then store it into the map
             } else {
+                // if not then store it into the map
                 value.put(nums[i], i);
             }
         }
